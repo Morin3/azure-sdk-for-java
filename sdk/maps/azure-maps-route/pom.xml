@@ -54,8 +54,8 @@
     <jacoco.min.branchcoverage>0.0</jacoco.min.branchcoverage>
     <jacoco.skip>false</jacoco.skip>
     <codesnippet.skip>false</codesnippet.skip>
-    <javadocDoclet></javadocDoclet>
-    <javadocDocletOptions></javadocDocletOptions>
+    <javadocDoclet/>
+    <javadocDocletOptions/>
   </properties>
 
   <dependencies>
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>com.azure</groupId>
       <artifactId>azure-core</artifactId>
-      <version>1.51.0</version> <!-- {x-version-update;com.azure:azure-core;dependency} -->
+      <version>1.54.1</version> <!-- {x-version-update;com.azure:azure-core;dependency} -->
     </dependency>
     <!-- END: com.azure.maps.route.dependency -->
     <dependency>
