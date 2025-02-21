@@ -100,7 +100,7 @@
     <dependency>
       <groupId>io.lettuce</groupId>
       <artifactId>lettuce-core</artifactId>
-      <version>6.3.2.RELEASE</version> <!-- {x-version-update;springboot3_io.lettuce:lettuce-core;external_dependency} -->
+      <version>6.5.4.RELEASE</version> <!-- {x-version-update;springboot3_io.lettuce:lettuce-core;external_dependency} -->
       <optional>true</optional>
     </dependency>
 
