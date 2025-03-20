@@ -14,8 +14,8 @@
   <description>Integration of Spring Cloud Config and Azure App Configuration Service</description>
   <properties>
     <codesnippet.skip>false</codesnippet.skip>
-    <javadocDoclet></javadocDoclet>
-    <javadocDocletOptions></javadocDocletOptions>
+    <javadocDoclet/>
+    <javadocDocletOptions/>
   </properties>
   <dependencies>
     <dependency>
@@ -37,7 +37,7 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-bus</artifactId>
-      <version>4.1.2</version> <!-- {x-version-update;springboot3_org.springframework.cloud:spring-cloud-bus;external_dependency} -->
+      <version>4.2.1</version> <!-- {x-version-update;springboot3_org.springframework.cloud:spring-cloud-bus;external_dependency} -->
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -227,17 +227,17 @@
                 <echo>Deleting existing ${project.basedir}/javadocTemp and
                   ${project.basedir}/sourceTemp</echo>
                 <delete includeEmptyDirs="true" quiet="true">
-                  <fileset dir="${project.basedir}/javadocTemp" />
-                  <fileset dir="${project.basedir}/sourceTemp" />
+                  <fileset dir="${project.basedir}/javadocTemp"/>
+                  <fileset dir="${project.basedir}/sourceTemp"/>
                 </delete>
                 <echo>Copying ${project.basedir}/../README.md to
                   ${project.basedir}/javadocTemp/README.md
                 </echo>
-                <copy file="${project.basedir}/../README.md" tofile="${project.basedir}/javadocTemp/README.md" failonerror="false" />
+                <copy file="${project.basedir}/../README.md" tofile="${project.basedir}/javadocTemp/README.md" failonerror="false"/>
                 <echo>Copying ${project.basedir}/../README.md to
                   ${project.basedir}/sourceTemp/README.md
                 </echo>
-                <copy file="${project.basedir}/../README.md" tofile="${project.basedir}/sourceTemp/README.md" failonerror="false" />
+                <copy file="${project.basedir}/../README.md" tofile="${project.basedir}/sourceTemp/README.md" failonerror="false"/>
               </target>
             </configuration>
             <goals>
