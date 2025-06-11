@@ -75,7 +75,7 @@ Licensed under the MIT License.
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>connect-api</artifactId>
-      <version>3.6.0</version> <!-- {x-version-update;cosmos_org.apache.kafka:connect-api;external_dependency} -->
+      <version>3.9.1</version> <!-- {x-version-update;cosmos_org.apache.kafka:connect-api;external_dependency} -->
       <scope>provided</scope>
     </dependency>
 
