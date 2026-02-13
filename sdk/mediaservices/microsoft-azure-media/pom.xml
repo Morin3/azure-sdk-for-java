@@ -67,7 +67,7 @@
   	<dependency>
 	    <groupId>com.microsoft.azure</groupId>
 	    <artifactId>adal4j</artifactId>
-      <version>1.2.0</version> <!-- {x-version-update;media_com.microsoft.azure:adal4j;external_dependency} -->
+      <version>1.6.1</version> <!-- {x-version-update;media_com.microsoft.azure:adal4j;external_dependency} -->
   	</dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
